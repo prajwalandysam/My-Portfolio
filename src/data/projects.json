@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Federated Learning Simulation",
+    "imageSrc": "projects/Federatedlogo.jpeg",
+    "description": "Developed a machine learning model using Federated Learning to predict energy output across  multiple power stations while ensuring data privacy and avoiding a single point of failure.",
+    "skills": ["Machine Learning", "Python"],
+  
+    "source": "https://github.com/prajwalandysam/FYP-Group-3.git"
+  },
+  {
+    "title": "Traveling Salesman Problem Solver with A* Search",
+    "imageSrc": "projects/AI.png",
+    "description": "Developed a C++ program to solve the Traveling Salesperson Problem using the A* search algorithm. It incorporates a Minimum Spanning Tree (MST) heuristic to optimize the search process, demonstrating efficient pathfinding and cost minimization in graph traversal.",
+  
+    "skills": ["C++", "AI" ,"Heuristics"],
+    "source": "https://github.com/prajwalandysam/TSP-with-MST.git"
+  },
+  {
+    "title": "Custom UNIX shell Implementation",
+    "imageSrc": "projects/project.png",
+    "description": "Built a custom UNIX shell in C that includes command parsing, process management, and I/O redirection, enhancing understanding of OS concepts like process lifecycles, IPC, and signal handling.",
+    "skills": ["C", "Terminal"],
+  
+    "source": "https://github.com/prajwalandysam/UNIX-Shell.git"
+  }
+]
