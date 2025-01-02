@@ -1,15 +1,24 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 0;
+  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
   
+  z-index: 20;
+  margin: 0 0%;
+  padding: 0 10%;
+  padding-top: 20px;
+  background-color: var(--color-bg);
+  border-bottom: 0.5px white solid;
+  /* opacity: 100; */
+
 }
+
 .menuBtn {
   display: none;
 }
@@ -41,6 +50,8 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    position: sticky;
+  top: 0;
   }
 
   .menu {
@@ -66,8 +77,8 @@
     border-radius: 10px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
+      170deg,
+      rgba(25, 55, 109, 0.5) 0%,
       rgba(25, 55, 109, 1) 100%
     );
 

@@ -7,13 +7,16 @@ import Projects from "./components/Projects/Projects.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 function App() {
   return <div className={styles.App}>
-    
+
     <Navbar />
+    
+
     <Hero />
     <About />
     <Experience/>
     <Projects/>
     <Contact/>
+    
 
   </div>;
 }

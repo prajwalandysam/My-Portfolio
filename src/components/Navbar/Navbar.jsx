@@ -5,6 +5,8 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    
+
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
         <h1>Portfolio</h1>
@@ -16,8 +18,8 @@ function Navbar() {
           //   src={getImageUrl("nav/menuIcon.png")}
           src={
             menuOpen
-              ? "../../assets/nav/closeIcon.png"
-              : "../../assets/nav/menuIcon.png"
+            ? "../../assets/nav/closeIcon.png"
+            : "../../assets/nav/menuIcon.png"
           }
           alt="menu-button"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -39,6 +41,7 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+       
   );
 }
 
